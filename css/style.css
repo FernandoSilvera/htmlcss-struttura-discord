@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fredoka", sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+:root {
+    --hflex-height: 40px;
+}
+
+
+/* CONTENT ---------- */
+header {
+    min-height: 70px;
+    background-color: lightblue;
+}
+
+nav li {
+    display: inline;
+}
+
+#head-flex {
+    background-color: rgb(255, 176, 29);
+    height: 40px;
+}
+
+#head-flex .col {
+    border: 2px dashed black;;
+}
+
+#head-flex .col-3 {
+    text-align: right;
+}
+
+#jumbo {
+    background-color: rgb(0, 0, 134);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.col {
+    line-height: 35px;
+    flex-grow: 1;
+    padding: 0 0.5em;
+}
+
+.col-large {
+    flex-grow: 2;
+    text-align: center;
+}
+
+.section {
+    min-height: 400px;
+}
+
+.box {
+    width: 90%;
+    min-height: 300px;
+    margin: 0 auto;
+    background-color: blueviolet;
+}
