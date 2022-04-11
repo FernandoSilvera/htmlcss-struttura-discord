@@ -45,20 +45,24 @@ nav li {
     background-color: rgb(0, 0, 134);
 }
 
-#section-1 {
+#section-1, #section-2 {
     min-height: 300px;
 }
 
-#section-1 .col-1 {
+#section-1 .col-1, #section-2 .col-1 {
     min-height: 350px;
     flex-grow: 2;
     background-color: rgb(0, 110, 255);
 }
 
-#section-1 .col-2 {
+#section-1 .col-2, #section-2 .col-2 {
     min-height: 350px;
     flex-grow: 1;
     background-color: rgb(255, 195, 195);
+}
+
+#section-2.row {
+    flex-direction: row-reverse;
 }
 
 .row {
@@ -89,4 +93,8 @@ nav li {
     border: 2px dashed black;
     margin: 0 auto;
     background-color: rgb(206, 102, 215);
+}
+
+.bg-lightgray {
+    background-color: lightgray;
 }
