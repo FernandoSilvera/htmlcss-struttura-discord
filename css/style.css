@@ -17,11 +17,6 @@ body {
     padding: 1em 0;
 }
 
-:root {
-    --hflex-height: 40px;
-}
-
-
 /* CONTENT ---------- */
 header {
     min-height: 70px;
