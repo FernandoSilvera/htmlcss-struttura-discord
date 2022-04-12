@@ -32,18 +32,44 @@ nav li {
     display: inline;
 }
 
-#head-flex .col {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 35px;
-    flex-grow: 1;
-    padding: 0 0.5em;
+#table .col-tall {
+    min-height: 500px;
+}
+
+#table .col {
+    flex-direction: row;
+    padding: 0;
+}
+
+#foot {
+    min-height: 50px;
+    padding: 1em 0 0;
+}
+
+#foot .row {
+    justify-content: space-between;
+}
+
+#foot .col {
+    display: block;
 }
 
 .row {
     display: flex;
     align-items: center;
+flex-direction: row;}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    min-height: 35px;
+    padding: 0 0.5em;
+}
+
+.col-tall {
+    min-height: 700px;
 }
 
 .col-large {
@@ -61,7 +87,7 @@ nav li {
 }
 
 .box {
-    width: 90%;
+    width: 75%;
     min-height: 275px;
     margin: 0 auto;
 }
@@ -88,6 +114,10 @@ nav li {
     border: 2px dashed black;
 }
 
+.bor-white {
+    border: 2px dashed white;
+}
+
 .bg-orange {
     background-color: rgb(255, 176, 29);
 }
@@ -110,4 +140,24 @@ nav li {
 
 .bg-lightgray {
     background-color: lightgray;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-black {
+    background-color: rgb(35, 35, 35);
+}
+
+.bg-darkrose {
+    background-color: rgb(248, 157, 157);
+}
+
+.bg-darkaqua {
+    background-color: rgb(79, 197, 181);
+}
+
+.bg-aqua {
+    background-color: aquamarine;
 }
